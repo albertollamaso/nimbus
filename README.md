@@ -49,8 +49,6 @@ func main() {
 		fmt.Println(err)
 	}
 }
-
-
 ```
 
 - Remove a key value pair
@@ -82,9 +80,7 @@ func main() {
 		fmt.Println("-----------------------------")
 	}
 }
-
 ```
-
 
 - Read the value for a given key
 
@@ -112,9 +108,7 @@ func main() {
 	fmt.Println("value of me@example.com is: ", value)
 	fmt.Println("-----------------------------")
 }
-
 ```
-
 
 - List all key value pairs from the database
 
@@ -144,9 +138,7 @@ func main() {
 		fmt.Println(k, v)
 	}
 }
-
 ```
-
 
 ## TODO
 
