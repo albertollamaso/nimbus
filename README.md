@@ -73,11 +73,9 @@ func main() {
 	err = nimbus.RemoveKV(db, "me@example.com")
 	if err != nil {
 		fmt.Println(err)
-		fmt.Println("couldn't delete key me@example.com that is not in the database")
-		fmt.Println("-----------------------------")
+		fmt.Println("couldn't delete key me@example.com that does not exists database")
 	} else {
 		fmt.Println("key: me@example.com has been removed")
-		fmt.Println("-----------------------------")
 	}
 }
 ```
@@ -106,7 +104,6 @@ func main() {
 		fmt.Println(err)
 	}
 	fmt.Println("value of me@example.com is: ", value)
-	fmt.Println("-----------------------------")
 }
 ```
 
